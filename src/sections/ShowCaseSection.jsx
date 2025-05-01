@@ -12,31 +12,33 @@ const AppShowcase = () => {
   const ycDirectoryRef = useRef(null);
 
   useGSAP(() => {
-    // Animation for the main section
+    gsap.registerPlugin(ScrollTrigger);
+
+    // Fade in the entire section
     gsap.fromTo(
       sectionRef.current,
       { opacity: 0 },
       { opacity: 1, duration: 1.5 }
     );
 
-    // Animations for each app showcase
+    // Collect card refs
     const cards = [rydeRef.current, libraryRef.current, ycDirectoryRef.current];
 
+    // Batch animate cards using ScrollTrigger
     cards.forEach((card, index) => {
       gsap.fromTo(
         card,
-        {
-          y: 50,
-          opacity: 0,
-        },
+        { y: 50, opacity: 0 },
         {
           y: 0,
           opacity: 1,
           duration: 1,
-          delay: 0.3 * (index + 1),
+          delay: 0.1 * index, // Reduced stagger delay for snappier animation
+          ease: "power2.out",
           scrollTrigger: {
             trigger: card,
-            start: "top bottom-=100",
+            start: "top 85%",
+            toggleActions: "play none none none", // Avoid re-triggering
           },
         }
       );
