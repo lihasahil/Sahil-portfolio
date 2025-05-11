@@ -31,6 +31,10 @@ const navLinks = [
     link: "#work",
   },
   {
+    name: "Education",
+    link: "#education",
+  },
+  {
     name: "Experience",
     link: "#experience",
   },
@@ -164,11 +168,13 @@ const techStackIcons = [
 const expCards = [
   {
     review:
-      "Sahil brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
+      "Studying Computer Engineering at Himalaya College of Engineering helped me build a strong foundation in programming, hardware, and problem-solving through hands-on learning and collaborative projects.",
     imgPath: "/images/exp1.png",
     logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
+    title: "Himalaya College of Engineering",
     date: "January 2023 - Present",
+    location: "Chyasal, Lalitpur",
+    grade: " Waiting Result",
     responsibilities: [
       "Developed and maintained user-facing features for the Hostinger website.",
       "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
@@ -177,11 +183,13 @@ const expCards = [
   },
   {
     review:
-      "Sahil’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-    imgPath: "/images/exp2.png",
-    logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
+      "Completed higher secondary education (+2) in Computer Science at V.S. Niketan Secondary School, with a focus on basic computer systems and introductory programming.",
+    imgPath: "/images/exp3.png",
+    logoPath: "/images/logo3.png",
+    title: "V.S. Niketan Secondary School",
     date: "June 2020 - December 2023",
+    location: "Minbhanwan, Kathmandu",
+    grade: "3.27 (A)",
     responsibilities: [
       "Led the development of Docker's web applications, focusing on scalability.",
       "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
@@ -190,11 +198,13 @@ const expCards = [
   },
   {
     review:
-      "Sahil’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
+      "Completed Grade 10 (SEE) from V.S. Niketan Secondary School, building a general academic foundation across science, mathematics, and computer studies.",
     imgPath: "/images/exp3.png",
     logoPath: "/images/logo3.png",
-    title: "React Native Developer",
+    title: "V.S. Niketan Secondary School",
+    location: "Minbhanwan, Kathmandu",
     date: "March 2019 - May 2020",
+    grade: "3.65 (A+)",
     responsibilities: [
       "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
       "Improved app performance and user experience through code optimization and testing.",
