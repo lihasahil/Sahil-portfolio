@@ -75,7 +75,7 @@ const EducationSection = () => {
                   <GlowCards card={card} showStars={false}>
                     <div>
                       <img
-                        className="w-1/2 h-auto inline-block"
+                        className="w-1/2 h-auto inline-block mx-auto"
                         src={card.imgPath}
                         alt="exp-img"
                       />
