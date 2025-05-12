@@ -172,7 +172,7 @@ const expCards = [
     imgPath: "/images/exp1.png",
     logoPath: "/images/logo1.png",
     title: "Himalaya College of Engineering",
-    date: "January 2023 - Present",
+    date: "April 2021 - Present",
     location: "Chyasal, Lalitpur",
     grade: " Waiting Result",
     responsibilities: [
@@ -187,7 +187,7 @@ const expCards = [
     imgPath: "/images/exp3.png",
     logoPath: "/images/logo3.png",
     title: "V.S. Niketan Secondary School",
-    date: "June 2020 - December 2023",
+    date: "June 2018 - June 2020",
     location: "Minbhanwan, Kathmandu",
     grade: "3.27 (A)",
     responsibilities: [
@@ -203,7 +203,7 @@ const expCards = [
     logoPath: "/images/logo3.png",
     title: "V.S. Niketan Secondary School",
     location: "Minbhanwan, Kathmandu",
-    date: "March 2019 - May 2020",
+    date: "April 2017 - April 2018",
     grade: "3.65 (A+)",
     responsibilities: [
       "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
